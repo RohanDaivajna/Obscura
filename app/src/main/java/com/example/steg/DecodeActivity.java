@@ -12,6 +12,7 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+
 import java.io.IOException;
 
 public class DecodeActivity extends AppCompatActivity {
