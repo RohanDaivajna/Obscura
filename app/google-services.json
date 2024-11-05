@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "207278272949",
+    "project_id": "obscura-82460",
+    "storage_bucket": "obscura-82460.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207278272949:android:31b31423b10d084e8d69fc",
+        "android_client_info": {
+          "package_name": "com.example.steg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlZRQdZ1gwTDZu94uCv7rbnsfh14rw_po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

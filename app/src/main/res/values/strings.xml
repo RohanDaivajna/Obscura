@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Obscura</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- res/values/strings.xml -->
+        <string name="signup">Sign Up</string>
+        <string name="username">Username</string>
+        <string name="email">Email</string>
+        <string name="password">Password</string>
+        <string name="signup_button">Sign Up</string>
+        <string name="login_prompt">Already have an account? Login Now</string>
+        <string name="signup_prompt">Not yet registered? Signup Now!!</string>
+    <string name="login">Login</string>
+
+</resources>

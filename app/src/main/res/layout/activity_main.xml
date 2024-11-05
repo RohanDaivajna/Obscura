@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="136dp"
+        android:layout_height="129dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_corners">
+
+        <ImageView
+            android:id="@+id/app_logo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/applogo" /> <!-- Ensures the image fits within the view -->
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="sans-serif-black"
+        android:text="OBSCURA"
+        android:textColor="#673AB7"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <!-- Tagline -->
+    <TextView
+        android:id="@+id/tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Whispering Words Through Images"
+        android:textColor="#673AB7"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Encode Text Button -->
+    <Button
+        android:id="@+id/encodeTextButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#673AB7"
+        android:drawablePadding="10dp"
+        android:elevation="6dp"
+        android:padding="12dp"
+        android:text="Encode Text"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:cornerRadius="16dp" />
+
+    <!-- Decode Text Button -->
+    <Button
+        android:id="@+id/decodeTextButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="#673AB7"
+        android:drawablePadding="10dp"
+        android:elevation="6dp"
+        android:padding="12dp"
+        android:text="Decode Text"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:cornerRadius="16dp" />
+</LinearLayout>
